@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+  </head>
+  <fieldset>
+     <body>
+    <h1>Task 2</h1>
+
+    <h2>Pizza Order Form</h2>
+
+    <form>
+      <table>
+        <tr>
+          <td><label for="firstName">First Name:</label></td>
+          <td><input type="text" id="firstName" name="firstName" /></td>
+        </tr>
+        <tr>
+          <td><label for="lastName">Last Name:</label></td>
+          <td><input type="text" id="lastName" name="lastName" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email Address:</label></td>
+          <td><input type="email" id="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="contact">Contact Number:</label></td>
+          <td><input type="text" id="contact" name="contact" /></td>
+        </tr>
+        <tr>
+          <td><label for="date">Preferred Delivery Date:</label></td>
+          <td>
+            <input type="text" id="date" name="date" value="mm/dd/yyyy" />
+          </td>
+        </tr>
+        <tr>
+          <td><label>Size:</label></td>
+          <td>
+            <input type="radio" id="small" name="size" value="small" />
+            <label for="small">Small</label>
+            <input type="radio" id="medium" name="size" value="medium" />
+            <label for="medium">Medium</label>
+            <input type="radio" id="large" name="size" value="large" />
+            <label for="large">Large</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Flavor:</label></td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="hawaiian"
+                    name="flavor"
+                    value="hawaiian"
+                  />
+                  <label for="hawaiian">Hawaiian (Php 150.00)</label>
+                </td>
+                <td>
+                  <select name="qty1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="pepperoni"
+                    name="flavor"
+                    value="pepperoni"
+                  />
+                  <label for="pepperoni">Pepperoni (Php 140.00)</label>
+                </td>
+                <td>
+                  <select name="qty2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="vegetable"
+                    name="flavor"
+                    value="vegetable"
+                  />
+                  <label for="vegetable">Vegetable (Php 130.00)</label>
+                </td>
+                <td>
+                  <select name="qty3">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="cardNumber">Credit Card Number:</label></td>
+          <td><input type="text" id="cardNumber" name="cardNumber" /></td>
+        </tr>
+        <tr>
+          <td><label for="pin">PIN:</label></td>
+          <td><input type="password" id="pin" name="pin" /></td>
+        </tr>
+        <tr>
+          <td><label for="note">Additional Note:</label></td>
+          <td>
+            <textarea id="note" name="note" rows="5" cols="40"></textarea>
+          </td>
+        </tr>
+      </table>
+
+      <br />
+      <input type="submit" value="Submit Order" />
+    </form>
+    <div align="center">
+        <a href="../Form_index.html"><button>Go Form Assignment Page</button></a>
+    <br><br>
+    <a href="../../revision_index.html"><button>Go Home</button></a>
+    </div>
+  </body></fieldset>
+ 
+</html>
