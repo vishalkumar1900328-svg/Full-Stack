@@ -1,0 +1,10 @@
+.nav-item{
+    color: azure;
+}
+
+.nav-item:hover{
+    color: aliceblue;
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
