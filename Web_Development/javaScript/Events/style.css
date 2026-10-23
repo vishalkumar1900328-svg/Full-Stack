@@ -1,0 +1,29 @@
+#box{
+    border: 2px solid rgb(20, 10, 134) ;
+    width: fit-content;
+    padding: 2px;
+}
+
+#mouseOver{
+    border: 2px solid rgb(20, 10, 134) ;
+    width: fit-content;
+    padding: 3px;
+}
+
+#mouseCheck{
+    border: 2px solid rgb(20, 10, 134) ;
+    width: fit-content;
+    padding: 2px;
+}
+
+#doubleClick{
+    border: 2px solid rgb(20, 10, 134) ;
+    width: fit-content;
+    padding: 2px;
+}
+
+#box{
+    border: 2px solid rgb(20, 10, 134) ;
+    width: fit-content;
+    padding: 2px;
+}
