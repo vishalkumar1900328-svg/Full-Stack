@@ -1,0 +1,11 @@
+#Section{
+    border: 1px solid blue;
+    width: 500px;
+}
+
+#InnerDiv{
+    border: 1px solid blue;
+    width: 500px;
+    padding: 2px;
+    
+}

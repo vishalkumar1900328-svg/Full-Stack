@@ -1,26 +1,35 @@
+*{
+    background-color: rgb(226, 225, 225);
+}
+
 #box{
+    background: rgb(156, 255, 243);
     border: 2px solid rgb(20, 10, 134) ;
     width: fit-content;
     padding: 2px;
 }
 
 #mouseOver{
+    background-color:aquamarine;
     border: 2px solid rgb(20, 10, 134) ;
     width: fit-content;
     padding: 3px;
 }
 
 #mouseCheck{
+    background-color: cadetblue;
     border: 2px solid rgb(20, 10, 134) ;
     width: fit-content;
     padding: 2px;
 }
 
 #doubleClick{
+    background-color: cornsilk;
     border: 2px solid rgb(20, 10, 134) ;
     width: fit-content;
     padding: 2px;
 }
+
 
 #box{
     border: 2px solid rgb(20, 10, 134) ;
